@@ -1,16 +1,6 @@
-# ✍️ The Stable Signature: Rooting Watermarks in Latent Diffusion Models
-
-Implementation and pretrained models.
-For details, see [**the paper**](https://arxiv.org/abs/2303.15435) (or go to ICCV 2023 in Paris 🥐).  
-
-[[`Webpage`](https://pierrefdz.github.io/publications/stablesignature/)]
-[[`arXiv`](https://arxiv.org/abs/2303.15435)]
-[[`Blog`](https://ai.meta.com/blog/stable-signature-watermarking-generative-ai/)]
-[[`Demo`](https://huggingface.co/spaces/imatag/stable-signature-bzh)]
-
+## Stable_Signature_profiling
+The majority of the repo is from https://github.com/facebookresearch/stable_signature
 ## Setup
-
-
 ### Requirements
 
 First, clone the repository locally and move inside the folder:
@@ -184,29 +174,3 @@ will return a csv file containing image metrics (PSNR, SSIM, LPIPS) between wate
 
 
 
-## Acknowledgements
-
-This code is based on the following repositories:
-
-- https://github.com/Stability-AI/stablediffusion
-- https://github.com/SteffenCzolbe/PerceptualSimilarity
-
-To train the watermark encoder/extractor, you can also refer to the following repository https://github.com/ando-khachatryan/HiDDeN. 
-
-## License
-
-The majority of Stable Signature is licensed under CC-BY-NC, however portions of the project are available under separate license terms: `src/ldm` and `src/taming` are licensed under the MIT license.
-
-## Citation
-
-If you find this repository useful, please consider giving a star :star: and please cite as:
-
-
-```
-@article{fernandez2023stable,
-  title={The Stable Signature: Rooting Watermarks in Latent Diffusion Models},
-  author={Fernandez, Pierre and Couairon, Guillaume and J{\'e}gou, Herv{\'e} and Douze, Matthijs and Furon, Teddy},
-  journal={ICCV},
-  year={2023}
-}
-```
